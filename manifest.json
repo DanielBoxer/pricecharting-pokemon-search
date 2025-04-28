@@ -17,6 +17,12 @@
         "page": "options.html"
     },
     "icons": {
-        "256": "pricecharting.png"
+        "512": "pricecharting.png"
+    },
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "{3d9bb53d-cc16-4e42-aeb2-e53966ce886f}",
+            "strict_min_version": "109.0"
+        }
     }
 }
