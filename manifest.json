@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "PriceCharting Pokémon Search",
+    "version": "1.0",
+    "description": "Search for Pokémon cards on PriceCharting using context menu",
+    "permissions": [
+        "contextMenus",
+        "tabs",
+        "storage"
+    ],
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+    "options_ui": {
+        "page": "options.html"
+    },
+    "icons": {
+        "256": "pricecharting.png"
+    }
+}
