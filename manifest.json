@@ -5,7 +5,6 @@
     "description": "Search for Pokémon cards on PriceCharting using context menu",
     "permissions": [
         "contextMenus",
-        "tabs",
         "storage"
     ],
     "background": {
